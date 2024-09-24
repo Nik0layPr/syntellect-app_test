@@ -1,0 +1,21 @@
+.container__control-text {
+    display: flex;
+}
+
+.container__buttons-left, .container__buttons-right {
+    display: flex;
+    flex: 1;
+    overflow-x: auto;
+}
+
+.container__buttons-left {
+    justify-content: flex-end;
+}
+
+.container__buttons-right {
+    justify-content: flex-start;
+}
+
+.control-text {
+    flex: 0 0 auto;
+}

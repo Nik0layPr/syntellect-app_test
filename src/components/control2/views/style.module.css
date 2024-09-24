@@ -1,0 +1,45 @@
+.container__control-autocomplete {
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.container__hint, .container__control-autocomplete > .control-autocomplete__input {
+    width: 200px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.container__control-autocomplete > .control-autocomplete__input {
+    font-size: 20px;
+}
+
+
+.container__hints > .container__hint:nth-child(odd) {
+    background-color: bisque;
+}
+
+.container__hints > .container__hint:nth-child(even) {
+    background-color:antiquewhite;
+}
+
+.container__hints > .container__hint:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
+.container__hint{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.container__hint > img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.container__hint > span {
+    font-size: 15px;
+    overflow: hidden;
+}
